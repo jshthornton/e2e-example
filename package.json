@@ -1,0 +1,19 @@
+{
+  "name": "e2e-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jshthornton/e2e-example.git",
+  "author": "Joshua Thornton <joshua.thornton@heg.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "test:spec": "node_modules/.bin/wdio"
+  },
+
+  "devDependencies": {
+    "wdio": "^0.3.3",
+    "wdio-dot-reporter": "^0.0.8",
+    "wdio-mocha-framework": "^0.5.9",
+    "webdriverio": "^4.6.2"
+  }
+}
